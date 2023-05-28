@@ -1,9 +1,27 @@
+body {
+  background-image: url("papelTapiz2.jpg")
+}
+
 .title {
     color: rgb(226, 8, 8);
-    width: 250px;
-    height: 50px;
+    width: 1250px;
+    height: 80px;
     background-color: rgb(64, 70, 60);
     border-radius: 10px;
     font-family: cursive;
-    font-size: xx-large;
+    font-size: xxx-large;
+    text-indent: 22px;
+  }
+
+  .primerp {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-indent: 5px;
+  }
+
+  .segundop {
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-indent: 5px;
   }
