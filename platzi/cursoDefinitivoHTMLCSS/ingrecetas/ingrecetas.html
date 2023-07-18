@@ -42,8 +42,8 @@
               ramen:</a>
           </article>
         </div>
-        
       </section>
+
       <section id="listas">
         <ul>
           <li>
@@ -73,17 +73,36 @@
         </ul>
       </section>
     </main>
+
     <aside>
       <section id="formularios">
         <form action="">
           <label for="proteina">
-            <span>Qué proteína te gusta más?</span>
-            <input type="text" id="proteina">
-          </label><br>
-          <input type="submit">
+            <span>Qué Proteína te gusta más?</span>
+            <input type="text" id="proteina" name = "proteina" autocomplete="name" required>
+          </label>
+          <label for="carbos">
+            <span>Qué Carbohidratos te gusta más?</span>
+            <input type="text" id="carbos" name = "carbos" autocomplete="name" required>
+          </label>
+          <label for="extras">
+            <span>Qué extras te gustan más?</span>
+            <input list="extras" name="extras" required/>
+              <datalist id="extras">
+              <option value="Panceta de cerdo"></option>
+              <option value="Huevos"></option>
+              <option value="Jamón serrano "></option>
+            </datalist>
+          </label>
+          <label for="calendario">
+            <span>Qué día visitas esta página?:</span>
+            <input type="datetime-local" name="calendario" id="calendario" autocomplete="name" required>
+          </label>
+          <input type="submit" />
         </form>
       </section>
     </aside>
+
     <footer id="piedepag">Gracias por Venir</footer>
   </body>
 </html>
